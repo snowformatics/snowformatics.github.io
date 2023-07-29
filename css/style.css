@@ -12,9 +12,9 @@ header {
 }
 
 main {
-  display: flex; /* Add this line to make the projects align horizontally */
-  flex-wrap: wrap; /* Add this line to wrap projects to the next line if the container is too small */
-  justify-content: center; /* Add this line to center the projects horizontally */
+  display: flex; /* Set flexbox container for horizontal layout */
+  flex-wrap: wrap; /* Allow projects to wrap to the next line if container is too small */
+  justify-content: space-evenly; /* Add space between projects */
   padding: 20px;
 }
 
