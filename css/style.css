@@ -12,11 +12,15 @@ header {
 }
 
 main {
+  display: flex; /* Add this line to make the projects align horizontally */
+  flex-wrap: wrap; /* Add this line to wrap projects to the next line if the container is too small */
+  justify-content: center; /* Add this line to center the projects horizontally */
   padding: 20px;
 }
 
 .project {
-  margin-bottom: 30px;
+  margin: 10px; /* Add some spacing between projects */
+  max-width: 300px; /* Limit the width of each project section */
 }
 
 .project img {
